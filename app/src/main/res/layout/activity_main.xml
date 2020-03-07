@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2f5476"
+    tools:context="com.example.un.MainActivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@android:drawable/editbox_background"
+        android:hint="User Name"
+        android:textColorHint="#000"
+        android:textSize="18sp"
+        android:inputType="textPersonName"
+        />
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@android:drawable/editbox_background"
+        android:hint="Password"
+        android:textColorHint="#000"
+        android:textSize="18sp"
+        android:inputType="numberPassword"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btnLog"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@android:drawable/editbox_background"
+        android:textSize="20sp"
+        />
+    <EditText
+        android:id="@+id/etNewName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@android:drawable/editbox_background"
+        android:hint="New Username"
+        android:textColorHint="#000"
+        android:textSize="18sp"
+        android:inputType="textPersonName"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/etPass2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@android:drawable/editbox_background"
+        android:hint="Password"
+        android:textColorHint="#000"
+        android:textSize="18sp"
+        android:inputType="numberPassword"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/etPass3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@android:drawable/editbox_background"
+        android:hint="Confirm Password"
+        android:textColorHint="#000"
+        android:textSize="18sp"
+        android:inputType="numberPassword"
+        tools:ignore="HardcodedText" />
+    <Button
+        android:id="@+id/btnLog2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:background="@android:drawable/editbox_background"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnLog3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Visit Our WebSite"
+        android:layout_centerHorizontal="true"
+        android:onClick="browser1"
+        android:layout_marginTop="500dp"
+        android:background="@android:drawable/editbox_background"
+        android:textSize="20sp"/>
+</RelativeLayout>
